@@ -53,7 +53,7 @@ The classifier with the highest accuracy on the test data is declared as the bes
  python –m pip install –U pip
 ```
 ```bash
-Dependency for gender classification-> pip install –U scikit-learn
+ pip install –U scikit-learn
 ```
 4)	Write python script for gender classification
 
