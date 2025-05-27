@@ -24,7 +24,7 @@ Each model is trained using a small dataset and tested on new inputs. The model 
 **Labels**:  
 - `male` or `female`
 
-### 📁 Training Data
+## 📁 Training Data
 
 ```python
 X = [[181,80,44], [177,70,43], [160,60,38],
@@ -33,31 +33,36 @@ X = [[181,80,44], [177,70,43], [160,60,38],
      [171,75,42], [181,85,43]]
 Y = ['male', 'female', 'female', 'female', 'male', 
      'male', 'male', 'female', 'male', 'female', 'male']
+```
 
 ## 🧪 Test Data
 ```python
 test_data = [[190, 70, 43], [154, 75, 38], [181,65,40]]
 test_labels = ['male','female','male']
+```
 
-#✅ Evaluation
+## ✅ Evaluation
 Accuracy is calculated for each model using accuracy_score from sklearn.metrics.
 The classifier with the highest accuracy on the test data is declared as the best-performing model.
 
-#📦 Requirements
+## 📦 Requirements
 1)	Install python
 2)	Setup environment (sublime text editor)
 3)	Install dependencies(pip)
 ```bash
  python –m pip install –U pip
+```
 ```bash
 Dependency for gender classification-> pip install –U scikit-learn
+```
 4)	Write python script for gender classification
 
-#▶️ How to Run
+## ▶️ How to Run
 ```bash
 python gender_classification.py
+```
 
-#📢 Output
+## 📢 Output
 Prediction results from each model
 
 Accuracy score per model
