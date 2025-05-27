@@ -39,13 +39,11 @@ clf = clf.fit(X,Y)
 prediction_svc = clf.predict(test_data)
 print ("Support Vector Machines Model Result: ",prediction_svc)
 
-
 #DecisionTree 
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(X,Y)
 prediction_tree = clf.predict(test_data)
 print ("Decision Tree Model Result: ",prediction_tree)
-
 
 #RandomForestClassifier
 clf = RandomForestClassifier()
